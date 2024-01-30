@@ -14,7 +14,7 @@ public class ProductOrderMain3 {
         for (int i = 0; i < orders.length; i++) {
             System.out.println((i + 1) + "번째 주문 정보를 입력하세요.");
 
-            System.out.print("싱픔명: ");
+            System.out.print("상품명: ");
             String productName = scanner.nextLine();
 
             System.out.print("가격: ");
